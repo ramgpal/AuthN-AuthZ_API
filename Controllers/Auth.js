@@ -3,6 +3,7 @@ const User = require("../models/User");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
+// signup handler function
 exports.signup = async (req, res) => {
     try {
         // Getting data
